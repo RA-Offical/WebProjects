@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieTo</title>
+    <!-- link to css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- link to font awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- link to google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- link to js -->
+    <!-- <script src="./js/index.js" defer="defer"></script> -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="pad1x pad1y block__hero">
+            <div class="header">
+                <h2 class="logo">MovieTo</h2>
+                <div class="header__btn">
+                    <a href="#" class="btn btn--rounded btn--athn login">Login</a>
+                    <a href="#" class="btn btn--rounded btn--athn signup">Signup</a>
+                </div>
+            </div>
+            <div class="hero">
+                <div class="hero__details">
+                    <p class="hero__greet">Help us find you the</p>
+                    <h1 class="hero__heading">Perfect Movie</h1>
+                    <p class="hero__idea">Hustle through tons of movies of every category, giving you alot of movies to
+                        choose
+                        from, or if you are
+                        confused watch one of our choosen here.</p>
+                    <button class="btn btn--mov-pad btn--rounded btn--circle hero__detail-btn">Find Movie</button>
+                </div>
+                <div class="hero__design-ctr">
+                    <div class="hero__design">
+                        <p class="hero__like">You may like</p>
+                        <h2 class="hero__design-name">Loading ...</h2>
+                        <img class="hero__design-img" src="./img/movi.jpg" alt="">
+                        <button class="btn btn--mov-pad btn--rounded btn--circle hero__design-btn">Add to
+                            watchlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid movie--grid">
+        </div>
+        <div class="pagination">
+            <button class="btn btn--pg prev" data-goto="1">Prev</button>
+            <div class="pg__btn-block">
+                <button class="btn btn--pg btn--pg-b btn--pg-active" data-goto="1">1</button>
+                <button class="btn btn--pg btn--pg-b " data-goto="2">2</button>
+                <button class="btn btn--pg btn--pg-b" data-goto="3">3</button>
+                <button class="btn btn--pg btn--pg-b" data-goto="4">4</button>
+                <button class="btn btn--pg btn--pg-b" data-goto="5">5</button>
+                <button class="btn btn--pg btn--pg-b" data-goto="6">6</button>
+                <button class="btn btn--pg btn--pg-b" data-goto="7">7</button>
+                <button class="btn btn--pg btn--pg-b" data-goto="8">8</button>
+                <button class="btn btn--pg btn--pg-b" data-goto="9">9</button>
+            </div>
+            <button class="btn btn--pg btn--pg-wb next" data-goto="10">Next</button>
+        </div>
+    </div>
+</body>
+
+</html>
